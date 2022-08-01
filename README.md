@@ -11,13 +11,15 @@ The target variable was whether the organization used the funding effectively.
 
 The feature variables were application type, affiliation, classifcation, use case, organization type, status, income amlount, special considerations, and the ask amount.
 
-What variable(s) are neither targets nor features, and should be removed from the input data?
+The EIN and name columns were neither targets nor features and were dropped from the data set before creating the model.
 
 ### Compiling, Training, and Evaluating the Model
-How many neurons, layers, and activation functions did you select for your neural network model, and why?
+My best performing model had three layers with 20, 10, and 8 neurons. I chose these after a kit if trial and error, as adding layers and neurons resulted in less accuracy.<br>
 
-Were you able to achieve the target model performance?
+![neural_screenshit](https://i.imgur.com/U8Sqepl.png)
 
-What steps did you take to try and increase model performance?
+I was able to get better performance but not up to 75%. To increase performance, I added layers, neurons, and changed the activation funtion. I tried lots of different combinations of layers and neurons.
 
-Summary: Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and explain your recommendation.
+## Summary
+Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and explain your recommendation.
+The machine learning model was able to predict fairly well whether a charity used money effectively. Another possible model that could be effective would be a random forest model, since the variable we are targeting can be measured with linear regression.
