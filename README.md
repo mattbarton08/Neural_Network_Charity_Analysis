@@ -1,14 +1,15 @@
 # Neural Network Charity Analysis
 
-## Overview of the analysis: 
-Explain the purpose of this analysis.
+## Overview of the analysis:
 
-## Results: Using bulleted lists and images to support your answers, address the following questions.
+The purpose of this analysis was to create a binary classifier to predict whether a charity organization will be successful if given funding by Alphabet Soup.
+
+## Results:
 
 ### Data Preprocessing
-What variable(s) are considered the target(s) for your model?
+The target variable was whether the organization used the funding effectively. 
 
-What variable(s) are considered to be the features for your model?
+The feature variables were application type, affiliation, classifcation, use case, organization type, status, income amlount, special considerations, and the ask amount.
 
 What variable(s) are neither targets nor features, and should be removed from the input data?
 
